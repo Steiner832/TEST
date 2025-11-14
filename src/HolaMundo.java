@@ -20,6 +20,7 @@ public class HolaMundo {
         	for (int j = 0+i; j < numeros.length; j++ ) {
         		if (numeros[j] < numeros[posicio]) {
         			posicio = j;
+        			
         		}
         	}
         	
