@@ -15,7 +15,7 @@ public class HolaMundo {
         
         //ordenació per selecció
         for (int i = 0; i < numeros.length -1; i++) {
-        	int posicio = i;
+        	int posicio = i;//afegir comentari
         	
         	for (int j = 0+i; j < numeros.length; j++ ) {
         		if (numeros[j] < numeros[posicio]) {
